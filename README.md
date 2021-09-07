@@ -1,4 +1,6 @@
 # Docskiff
+Step 1-> npm install
+Step 2-> ng serve
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
 
