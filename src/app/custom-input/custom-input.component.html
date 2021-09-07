@@ -1,0 +1,16 @@
+<div class="custominput">
+  <div *ngIf="selectedTexts.length > 0" style="display: flex; flex-wrap: wrap">
+    <p class="items" *ngFor="let item of selectedTexts">
+      {{ item }}
+      <span (click)="deleteItem(item)" class="delete">x</span>
+    </p>
+  </div>
+  <input
+    (keyup)="addText($event)"
+    placeholder="Enter some text and press 'Enter or Comma'"
+    type="text"
+    name="itemName"
+    id="itemId"
+    [(ngModel)]="itemNameModel"
+  />
+</div>

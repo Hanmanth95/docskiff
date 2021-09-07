@@ -1,0 +1,26 @@
+input {
+  border: none;
+  outline: none;
+  width: 98%;
+}
+
+.items {
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  height: 0px;
+  line-height: 2px;
+  margin-right: 5px;
+}
+
+.delete {
+  margin-left: 5px;
+  color: red;
+  cursor: pointer;
+}
+
+.custominput {
+  width: 35%;
+  border: 1px solid grey;
+  padding: 2px;
+}
